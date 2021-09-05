@@ -3,6 +3,8 @@ CP1404/CP5632 Practical
 Count word occurrences in a string
 """
 
+# Solutions were viewed after completion to fix/optimise code
+
 word_to_word_count = {}      # Dictionary
 text = input("Text: ")
 words = text.split()
