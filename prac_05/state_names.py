@@ -6,8 +6,9 @@ File has been reformatted & aligned
 
 CODE_TO_NAME = {"QLD": "Queensland", "NSW": "New South Wales", "NT ": "Northern Territory", "WA ": "Western Australia",
                 "ACT": "Australian Capital Territory", "VIC": "Victoria", "TAS": "Tasmania"}
-for State in CODE_TO_NAME:
-    print(f"{State} is {CODE_TO_NAME[State]}")
+
+for state in CODE_TO_NAME:
+    print(f"{state} is {CODE_TO_NAME[state]}")
 
 state_code = input("Enter short state: ").upper()
 while state_code != "":
