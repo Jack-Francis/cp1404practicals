@@ -1,12 +1,12 @@
 """
-CP1404/CP5632 Practical - Suggested Solution
+CP1404/CP5632 Practical
 Sort files 1 program
 """
 import os
 
 
 def main():
-    """Move files into folders based on their extension."""
+    """Move files into folders named after extensions, based on their extension."""
     os.chdir("FilesToSort")
     for filename in os.listdir('.'):
         if os.path.isdir(filename):
