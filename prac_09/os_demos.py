@@ -2,7 +2,6 @@
 CP1404/CP5632 Practical
 Cleanup Files program
 """
-
 import os
 
 
